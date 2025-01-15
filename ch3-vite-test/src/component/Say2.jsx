@@ -18,6 +18,7 @@ const Say2 = () => {
         name="inputText"
         placeholder="메세지를 입력하세요"
 
+        //value = {message}
         // onChange={(e) => setMessage(e.target.value)}
         //onChange 이벤트는 사용자가 입력 필드의 내용을 변경할 때마다 발생함.
         // 즉, 사용자가 텍스트를 입력하거나 수정할 때마다 호출됨.
