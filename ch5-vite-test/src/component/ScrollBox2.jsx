@@ -39,7 +39,7 @@ class ScrollBox2 extends Component {
     const innerStyle = {
       width: '100%',
       height: '650px',
-      background: 'linear-gradient(pink, red)',
+      background: 'linear-gradient(skyblue, blue)',
     };
 
     return (
