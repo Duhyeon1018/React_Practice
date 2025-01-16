@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ScrollBox extends Component {
+class ScrollBoxEx extends Component {
   // 스크롤바를 맨 밑으로 이동해주는 함수.
   scrollToBottom = () => {
     //this.box , ScrollBox 화면을 의미, 고유 속성
@@ -61,4 +61,4 @@ class ScrollBox extends Component {
   }
 }
 
-export default ScrollBox;
+export default ScrollBoxEx;
