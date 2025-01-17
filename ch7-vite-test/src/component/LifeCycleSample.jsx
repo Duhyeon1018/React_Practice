@@ -48,6 +48,7 @@ class LifeCycleSample extends Component {
   // 생명주기 , 업데이트  4번
   getSnapshotBeforeUpdate(prevProps, prevState) {
     console.log('getSnapshotBeforeUpdate');
+    console.log(`업데이트 직전 색상: ${this.myRef.style.color}`);
     if (prevProps.color !== this.props.color) {
       return this.myRef.style.color;
     }
