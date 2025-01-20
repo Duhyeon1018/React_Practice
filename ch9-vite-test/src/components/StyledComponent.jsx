@@ -36,8 +36,19 @@ const Box = styled.div`
   display: flex;
 
   /* media 쿼리를 사용하여 크기 조정 */
-  ${media.desktop`width: 768px;`}
-  ${media.tablet`width: 100%;`}
+  /* ${media.desktop`width: 768px;`}
+  ${media.tablet`width: 100%;`} */
+  /* 추가 사용 예시 */
+  ${media.desktop`
+    width: 768px;
+    background-color: lightblue;
+    padding: 16px;
+  `}
+
+  ${media.tablet`
+    width: 100%;
+    background-color: lightgreen;
+  `}
 `;
 
 // Button 컴포넌트

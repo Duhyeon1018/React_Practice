@@ -20,6 +20,8 @@ const SassComponent = () => {
         <div className="box blue" />
         <div className="box indigo" />
         <div className="box violet" />
+        {/* 실습1 */}
+        <div className="box pink" />
       </div>
     </>
   );

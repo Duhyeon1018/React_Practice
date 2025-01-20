@@ -18,12 +18,22 @@
     }
 
     .box {
+
+        //실습3, 첫번째요소, 마지막 요소, 각각 색상 표기. 
+        &:first-child {
+            background: $yellow;
+        }
+
+        &:last-child {
+            background: $green;
+        }
+
         background: red;
         cursor: pointer;
         transition: all 0.3s ease-in;
 
         &.red {
-            background: $red;
+            // background: $red;
             @include square(1);
         }
 
@@ -37,9 +47,11 @@
             @include square(3);
         }
 
+        //실습2번 
         &.green {
             background: $green;
-            @include square(4);
+            // 추가, 
+            @include square(4, 10px solid $red);
         }
 
         &.blue {
@@ -55,6 +67,16 @@
         &.violet {
             background: $violet;
             @include square(7);
+        }
+
+        //실습1번 
+        &.pink {
+            // background: $pink;
+            @include square(8);
+
+            &:hover {
+                background: white;
+            }
         }
 
         &:hover {
