@@ -1218,6 +1218,7 @@ CSSModule에서 글로벌 클래스를 정의할 때
       color: yellow;
       font-size: 3rem;
     }
+    }
 	
 적용. 
 예시. 
